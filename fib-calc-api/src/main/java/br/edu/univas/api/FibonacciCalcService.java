@@ -1,4 +1,4 @@
-package br.edu.univas;
+package br.edu.univas.api;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -8,7 +8,7 @@ import javax.ws.rs.core.MediaType;
 
 @Path("/fibcalc")
 public interface FibonacciCalcService {
-	
+
 	@GET
 	@Path("/fib/{num}")
 	@Produces(MediaType.APPLICATION_JSON)

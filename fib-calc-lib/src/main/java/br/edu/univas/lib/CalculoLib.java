@@ -1,4 +1,4 @@
-package br.edu.univas;
+package br.edu.univas.lib;
 
 public class CalculoLib {
 

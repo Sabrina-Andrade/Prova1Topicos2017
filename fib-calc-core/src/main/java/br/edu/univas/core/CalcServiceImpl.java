@@ -1,4 +1,7 @@
-package br.edu.univas;
+package br.edu.univas.core;
+
+import br.edu.univas.api.FibonacciCalcService;
+import br.edu.univas.api.Result;
 
 public class CalcServiceImpl implements FibonacciCalcService {
 
@@ -10,4 +13,3 @@ public class CalcServiceImpl implements FibonacciCalcService {
 	}
 
 }
-
